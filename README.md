@@ -48,8 +48,12 @@ kubectl get describe deployments
 
 kubectl get describe deployments
 
-# Commands to Create deployment and service objects by using the yml files
+# Command to create a deployment object by using the yml file
+
 kubectl apply -f deployment.yml
+
+# Command to create a service object by using the yml file
+
 kubectl apply -f service.yml
 
 
