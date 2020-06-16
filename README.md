@@ -42,11 +42,11 @@ kubectl get services
 
 # Get details of your deployments
 
-kubectl get describe deployments
+kubectl describe deployments
 
 # Get details of your replicas
 
-kubectl get describe deployments
+kubectl describe rs
 
 # Command to create a deployment object by using the yml file
 
